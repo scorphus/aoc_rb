@@ -3,6 +3,7 @@
 require "aoc_rb/app_loader"
 AocRb::AppLoader.exec_app
 
+require "fileutils"
 require "thor"
 
 module AocRb
